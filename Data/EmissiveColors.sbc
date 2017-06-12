@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmissiveColorStatePresets>
+    <!--
+    Blocks use these states:
+      Working - block is functional
+      Disabled - block has no power or is not enabled
+      Damaged - block is not functional (damaged)
+      Warning - used by some blocks to when the block is not working correctly (for example used by vent when the room is not presurized)
+      Alternative - used by some blocks that it is working in different way than default one (for example used by vent when depressurizing)
+      Locked - Used by connector type blocks when they are locked with each other
+      Autolock - Used by landing gear
+      Constraint - Used by connector type block when they are close enough and are not locked
+    -->   
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>LaserW</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Working" EmissiveColorName="LaserBlue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Damaged" EmissiveColorName="Yellow" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="DarkGray" DisplayColorName="Black" Emissivity="0" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>LaserG</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Working" EmissiveColorName="LaserRed" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Damaged" EmissiveColorName="Yellow" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="DarkGray" DisplayColorName="Black" Emissivity="0" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    
+  </EmissiveColorStatePresets>
+  
+  <EmissiveColors>
+    
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>LaserRed</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>230</R>
+        <G>20</G>
+        <B>20</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>DarkGray</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>40</R>
+        <G>40</G>
+        <B>40</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Black</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Yellow</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>White</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+
+
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>LaserBlue</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>12</R>
+        <G>127</G>
+        <B>242</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+
+
+  </EmissiveColors>
+</Definitions>

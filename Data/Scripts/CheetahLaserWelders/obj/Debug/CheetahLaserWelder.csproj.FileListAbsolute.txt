@@ -1,0 +1,143 @@
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Cheetah's Laser Welders.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Cheetah's Laser Welders.pdb
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Google.Protobuf.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\HavokWrapper.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\NLog.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Octokit.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Sandbox.Common.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Sandbox.Game.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Sandbox.Graphics.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.exe
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.Game.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.ObjectBuilders.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.ObjectBuilders.XmlSerializers.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.Data.SQLite.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Ansel.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Audio.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Dedicated.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Game.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Game.XmlSerializers.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Input.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Library.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Math.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Native.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.OpenVRWrapper.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Render.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Render11.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\InfinarioSDK.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SteamSDK.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\RecastDetourWrapper.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Scripting.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Desktop.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Mathematics.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\DirectShowLib-2005.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Google.Protobuf.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\HavokWrapper.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Sandbox.Common.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Sandbox.Game.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\Sandbox.Graphics.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.exe.config
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.Game.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SpaceEngineers.ObjectBuilders.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.Data.SQLite.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Game.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Input.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Library.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Math.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Render.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Render11.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\VRage.Scripting.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Desktop.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Mathematics.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\obj\Debug\Cheetah's Laser Welders.dll
+C:\Users\Thomas J. Bumgardner\Documents\Visual Studio 2017\Projects\ClassLibrary2\ClassLibrary2\obj\Debug\Cheetah's Laser Welders.pdb
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Cheetah's Laser Welders.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Cheetah's Laser Welders.pdb
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SpaceEngineers.exe
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Game.XmlSerializers.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Input.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Library.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Math.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Native.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.OpenVRWrapper.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Render.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Render11.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\InfinarioSDK.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SteamSDK.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\RecastDetourWrapper.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Scripting.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Desktop.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Mathematics.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\DirectShowLib-2005.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Google.Protobuf.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\HavokWrapper.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Sandbox.Common.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Sandbox.Game.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\Sandbox.Graphics.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SpaceEngineers.exe.config
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SpaceEngineers.Game.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SpaceEngineers.ObjectBuilders.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\System.Data.SQLite.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Game.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Input.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Library.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Math.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Render.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Render11.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\VRage.Scripting.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Desktop.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Mathematics.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\obj\Debug\CheetahLaserWelder.csprojResolveAssemblyReference.cache
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\obj\Debug\Cheetah's Laser Welders.dll
+C:\Users\Thomas J. Bumgardner\AppData\Roaming\SpaceEngineers\Mods\CheetahLaserWeld\Data\Scripts\CheetahLaserWelders\obj\Debug\Cheetah's Laser Welders.pdb

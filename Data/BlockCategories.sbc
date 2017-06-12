@@ -1,0 +1,45 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+        <string>ShipGrinder/LargeShipGrinder</string>
+        <string>ShipWelder/LargeShipWelder</string>
+		<string>ShipGrinder/LargeShipLaserGrinder</string>
+        <string>ShipWelder/LargeShipLaserWelder</string>
+        <string>SmallMissileLauncher/LargeMissileLauncher</string>
+        <string>Drill/LargeBlockDrill</string>
+        <string>Drill/SmallBlockDrill</string>
+        <string>ShipGrinder/SmallShipGrinder</string>
+        <string>ShipWelder/SmallShipWelder</string>
+		<string>ShipGrinder/SmallShipLaserGrinder</string>
+        <string>ShipWelder/SmallShipLaserWelder</string>
+        <string>SmallGatlingGun/(null)</string>
+        <string>SmallMissileLauncher/(null)</string>
+        <string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>WeaponsTools</Name>
+      <ItemIds>
+        <string>ShipGrinder/SmallShipLaserGrinder</string>
+        <string>ShipWelder/SmallShipLaserWelder</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

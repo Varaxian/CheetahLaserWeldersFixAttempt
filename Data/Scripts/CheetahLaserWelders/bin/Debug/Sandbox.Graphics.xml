@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sandbox.Graphics</name>
+    </assembly>
+    <members>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlBase.m_isMouseOver">
+            <summary>
+            Status of mouse over in this update.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlBase.m_isMouseOverInPrevious">
+            <summary>
+            Status of mouse over in previous update.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlBase.IsActiveControl">
+            <summary>
+            There are some controls, that cannot receive any handle input(control panel for example), thus disable them with this.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlBase.GetMouseOverControl">
+            <summary>
+            Returns first control, which has mouse over.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlBase.HandleInput">
+            <summary>
+            Method returns true if input was captured by control, so no other controls, nor screen can use input in this update.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlBase.CheckMouseOver">
+            <summary>
+            Checks if mouse cursor is over control.
+            GR: Update: Also check if mouse over parent controls. Slower but more solid implementation (and we get rid of a few bugs). Also there is no need for HandleMouse variable (removed)
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlBase.ApplyColorMaskModifiers(VRageMath.Vector4,System.Boolean,System.Single)">
+            <summary>
+            Modifies source color mask using transition alpha and color multiplier in case a control is disabled.
+            </summary>
+            <param name="sourceColorMask">Original color mask of the control.</param>
+            <param name="enabled">Indicates whether disabled color mask should be applied.</param>
+            <param name="transitionAlpha">Alpha value modified during transition.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlBase.OnRemoving">
+            <summary>
+            Removes various references and clears event handlers.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.Position">
+            <summary>
+            Position of control's center (normalized and relative to parent screen center (not left/top corner!!!))
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.Size">
+            <summary>
+            Size of control (normalized).
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.Enabled">
+            <summary>
+            False to disable control, disabled controls are skipped when switching with Tab key etc., look implemented atm. only in MyGuiControlButton.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.Visible">
+            <summary>
+            Says whether control is visible. Note that this is not a constant time operation (checks parents, fires events on set).
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.HasHighlight">
+            <summary>
+            Says whether control is currently highlighted. When control is highlit depends on HighlightType.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.AllowFocusingElements">
+            <summary>
+            Indicates whether elements can have focus or not.
+            </summary>
+        </member>
+        <member name="E:Sandbox.Graphics.GUI.MyGuiControlBase.FocusChanged">
+            <summary>
+            Called when the control enters or leaves focus.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlBase.UserData">
+            <summary>
+            Specific user data for this control.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlContextMenu.MyContextMenuKeyTimerController.LastKeyPressTime">
+            <summary>
+            This is not for converting key to string, but for controling repeated key input with delay
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlTable.m_visibleRowIndexOffset">
+            <summary>
+            Index computed from scrollbar.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTable.SetCustomColumnWidths(System.Single[])">
+            <summary>
+            Modifies width of each column. Note that widths are relative to the width of table (excluding slider),
+            so they should sum up to 1. Setting widths to 0.75 and 0.25 for 2 column table will give 3/4 of size to
+            one column and 1/4 to the second one.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Gui.MyGuiControlImageButton.CornerTextFont">
+            <summary>
+            Corner text font.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Gui.MyGuiControlImageButton.CornerTextSize">
+            <summary>
+            Corner text size where 1.0f is the standard size.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Gui.MyGuiControlImageButton.BoundKey">
+            <summary>
+            The key this button will respond to when pressed. Will act as an OnClick.
+            MyKeys.None by default.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Gui.MyGuiControlImageButton.AllowBoundKey">
+            <summary>
+            Whether or not this button supports having a key bound to it.
+            False by default.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Gui.MyGuiControlImageButton.CornerText">
+            <summary>
+            Text visible in the bottom left corner.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlGrid.ItemBackgroundColorMask">
+            <summary>
+            Separated ColorMask for Item background. 
+            It's assigned automatically when ColorMask is set!
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGrid.Add(Sandbox.Graphics.GUI.MyGuiControlGrid.Item,System.Int32)">
+            <summary>
+            Adds item to the first empty (null) position.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGrid.SetItemsToDefault">
+            <summary>
+            Sets all items to default value (null). Note that this does not affect
+            the number of items.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGrid.Clear">
+            <summary>
+            Removes all items. This affects the size of the collection.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGrid.TrimEmptyItems">
+            <summary>
+            Removes items which are null (empty) from the end. Stops as soon as first non-empty item is found.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGrid.IsValidCellIndex(System.Int32)">
+            <summary>
+            Says, whether the given index points at a cell that can possibly contain an item.
+            The thing is, the item does not necessarily have to be there. m_items can be even smaller than a valid index (but not larger)
+            </summary>
+            <param name="itemIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlMultilineText.m_useEnum">
+            <summary>
+            Says whether last set value was enum (true) or StringBuilder (false).
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlMultilineText.RefreshText(System.Boolean)">
+            <summary>
+            Sets the text to the given StringBuilder value.
+            Layouts the controls.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlMultilineText.AdjustScissorRectangle(VRageMath.RectangleF@,System.Single,System.Single)">
+            <summary>
+            Adjust rectangle for shadows
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlMultilineText.DrawText(System.Single)">
+            <summary>
+            Draws the text with the offset given by the scrollbar.
+            </summary>
+            <param name="offset">Indicates how low is the scrollbar (and how many beginning lines are skipped)</param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlMultilineText.GetPreviousSpace">
+            <summary>
+            gets the position of the first space to the left of the carriage or 0 if there isn't any
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlMultilineText.GetNextSpace">
+            <summary>
+            gets the position of the first space to the right of the carriage or the text length if there isn't any
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlMultilineText.TextColor">
+            <summary>
+            Gets or sets the color of the text.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlMultilineText.TextAlign">
+            <summary>
+            Alignment of text as if you were specifying it in MS Word. This controls the appearance of text itself.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlMultilineText.TextBoxAlign">
+            <summary>
+            Alignment of box containing text within the control. Eg. if text does not fill whole control horizontally,
+            this will specify how should sides of the box be aligned.
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.MyGuiSliderProperties">
+            These settings allow the slider to be customized to any use.
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlSliderBase.Propeties">
+            Control properties of the slider.
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlSliderBase.Ratio">
+            <summary>
+            This is values selected on slider in original units, e.g. meters, so it can be for example 1000 meters.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.Canceling">
+            <summary>
+            Called when user presses ESC or clicks on CANCEL - hook to this method so you can do gui-screen-specific event
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.GetFriendlyName">
+            <summary>
+            For displaying in the list in the debug screen.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.OnShow">
+            <summary>
+            Called when [show].
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.OnHide">
+            <summary>
+            Called when [show].
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.OnRemoved">
+            <summary>
+            Called when [show].
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.OnClosed">
+            <summary>
+            Called when [show].
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenBase.MakeXAndYEqual(VRageMath.Vector2@)">
+            <summary>
+            Computes ratio of width and height in GUI coordinates to make X and Y of
+            equal value represent same distance on screen as well. Then multiplies Y using this ratio.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiScreenBase.EnabledBackgroundFade">
+            <summary>
+            Draw fade rectangle under top-most screen?
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiScreenBase.CanBeHidden">
+            <summary>
+            Indicates whether screen can be hidden when another screen is on
+            top of it (assuming that screen hides screens below it).
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiScreenBase.CanHideOthers">
+            <summary>
+            Indicates whether screen can hide screens below it. This will not 
+            hide screens that cannot be hidden.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiScreenBase.CanHaveFocus">
+            <summary>
+            Without focus, this screen will not steal input.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenDialogAmount.#ctor(System.Single,System.Single,VRage.Utils.MyStringId,System.Int32,System.Boolean,System.Nullable{System.Single})">
+            <param name="min">Minimum allowed amount.</param>
+            <param name="max">Maximum allowed amount.</param>
+            <param name="minMaxDecimalDigits">Number of digits used from min and max value. Decimal places beyond this value are cut off (no rounding occurs).</param>
+            <param name="parseAsInteger">True will ensure parsing as integer number (you cannot input decimal values). False will parse as decimal number.</param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyKeyThrottler.IsNewPressAndThrottled(VRage.Input.MyKeys)">
+            <summary>
+            Determines if the given key was pressed during this update cycle, but it also
+            makes sure a minimum amount of time has passed before allowing a press.
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyKeyThrottler.MyKeyThrottleState.LastKeyPressTime">
+            <summary>
+            This is not for converting key to string, but for controling repeated key input with delay
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyKeyThrottler.MyKeyThrottleState.RequiredDelay">
+            <summary>
+            The required delay until the key is ready again.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyRichLabelText.Draw(VRageMath.Vector2)">
+            <summary>
+            Draws text
+            </summary>
+            <param name="position">Top-left position</param>
+            <returns></returns>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.ThrottledKeyStatus.UNPRESSED">
+            <summary>
+            The requested key is not pressed.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.ThrottledKeyStatus.PRESSED_AND_WAITING">
+            <summary>
+            The requested key is pressed, but it's waiting for a delay.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.ThrottledKeyStatus.PRESSED_AND_READY">
+            <summary>
+            The key is pressed and any time delay has passed.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyScreenManager.#cctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Object"/> class.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyScreenManager.LoadData">
+            <summary>
+            Loads the data.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyScreenManager.ClearLastScreenWithFocus">
+            <summary>
+            Clears the old focus, this gets around an issue where the input does not always get cleared between frames, causing screens to handle input when they shouldn't.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyScreenManager.Screens">
+            <summary>
+            Corrently active screens.
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.MyGuiCompositeTexture">
+            <summary>
+            Composite texture is built from several parts. Currently there is Top and Bottom
+            which are rendered at their original aspect ratio and size, and Center which
+            fills up space between Top and Bottom.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiCompositeTexture.Draw(VRageMath.Vector2,System.Single,VRageMath.Color)">
+            <summary>
+            Draw the composite texture at specified position with given height (width is implicit from size of each part).
+            </summary>
+            <param name="positionTopLeft">Position of the top left corner of the composite texture.</param>
+            <param name="innerHeight">Height of expandable area within composite texture (real height will include top and bottom as well).</param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiCompositeTexture.CreateFromDefinition(VRage.Utils.MyStringHash)">
+            <summary>
+            Creates the composite texture from definition.
+            </summary>
+            <param name="textureKey">Name of the texture with in atlas.</param>
+            <returns>Initilized composite texture.</returns>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiConstants.THEMED_GUI_LINE_COLOR">
+            <summary>
+            Recommended color of lines for GUI.
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.MyGuiHighlightTexture">
+            <summary>
+            Structure describing texture that consists of normal and highlight
+            version. Also holds information about size of the texture before it was
+            scaled to power of 2 and this size in GUI normalized coordinates.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiHighlightTexture.Normal">
+            <summary>
+            Normal, non highlight version of the texture;
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiHighlightTexture.Highlight">
+            <summary>
+            Highlight version of the texture.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiHighlightTexture.SizePx">
+            <summary>
+            Size in pixels before texture was scaled to power of 2. This helps
+            when we have to compute its correct aspect ratio and ideal
+            resolution for rendering.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiHighlightTexture.SizeGui">
+            <summary>
+            Size in pixels converted to normalized gui coordinates. Can be used
+            as size when drawing.
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.MyGuiSizedTexture">
+            <summary>
+            Similar to MyGuiHighlightTexture but only contains one texture image.
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.MyGuiPaddedTexture">
+            <summary>
+            Texture that also contains padding information.
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.MyGuiBorderThickness">
+            <summary>
+            Structure specifying thickness of each of the 4 borders of a rectangle.
+            Can be used for margin and padding specification.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlCombobox.Draw(System.Single,System.Single)">
+            <summary>
+            two phase draw(two SpriteBatch phase):
+            1. combobox itself and selected item
+            2. opened area and display items draw(if opened area is displayed)
+                a. setup up and draw stencil area to stencil buffer for clipping
+                b. enable stencil
+                c. draw the display items
+                d. disable stencil
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlCombobox.StyleDefinition.SelectedItemOffset">
+            <summary>
+            Offset of the text from left border.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyDropHandleType.MouseClick">
+            <summary>
+            Drop released on mouse button click
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyDropHandleType.MouseRelease">
+            <summary>
+            Drop released on mouse button release
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGridDragAndDrop.StartDragging(Sandbox.Graphics.GUI.MyDropHandleType,VRage.Input.MySharedButtonsEnum,Sandbox.Graphics.GUI.MyGuiControlGrid.Item,Sandbox.Graphics.GUI.MyDragAndDropInfo,System.Boolean)">
+            <summary>
+            Starts dragging item
+            </summary>
+            <param name="dropHandleType">On which action released drop event</param>
+            <param name="draggingItem">Item which is dragging</param>
+            <param name="draggingFrom">Information about item's origin</param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGridDragAndDrop.Stop">
+            <summary>
+            Stops dragging item
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlGridDragAndDrop.IsActive">
+            <summary>
+            Returns if dragging is active
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlLabel.AutoEllipsis">
+            <summary>
+            Automatically shorten text by using triple dot character
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlLabel.Autowrap(System.Single)">
+            <summary>
+            Inserts newlines into text to make it fit size.
+            Works only on TextToDraw.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlLabel.UpdateFormatParams(System.Object[])">
+            <summary>
+            If label's text contains params, we can update them here. Also, don't forget
+            that text is defined two time: one as a definition and one that we draw.
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlLabel.PrepareForAsyncTextUpdate">
+            <summary>
+            Prepares the text to be changed asynchronously.
+            Important to use before changing text from parallel threads!
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlLabel.Font">
+            <summary>
+            Font used for drawing. Setting null will switch to default font (ie. this never returns null).
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlList.SetScrollBarPage(System.Single)">
+            <summary>
+            Set scroll to desired page. Default 0 mean start of the list.
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlListbox.ScrollToolbarToTop">
+            <summary>
+            GR: Individual controls should reset toolbar postion if needed.
+            Do no do in refresh of toolbar becaues it may happen often and cause bugs (autoscrolling to top every few frames when not intended)
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlListbox.StyleDefinition.TextOffset">
+            <summary>
+            Offset of the text from left border.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlListbox.Item.#ctor(System.Text.StringBuilder,System.String,System.String,System.Object,System.String)">
+            <summary>
+            Do not construct directly. Use AddItem on listbox for that.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlProgressBar.ProgressColor">
+            <summary>
+            Color of the progress bar.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyGuiControlProgressBar.m_value">
+            <summary>
+            Value in specifying progress percentage in range from 0 to 1.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlSlider.ValueNormalized">
+            <summary>
+            Normalized value selected on slider (range 0, 1).
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTabControl.GetMouseOverTab">
+            <summary>
+            
+            </summary>
+            <returns>Mouse over tab index or -1 when none of them.</returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.SetText(System.Text.StringBuilder)">
+            <summary>
+            Copies string from source to internal string builder
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.GetPreviousSpace">
+            <summary>
+            gets the position of the first space to the left of the carriage or 0 if there isn't any
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.GetNextSpace">
+            <summary>
+            gets the position of the first space to the right of the carriage or the text length if there isn't any
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.HandleInput">
+            <summary>
+            Method returns true if input was captured by control, so no other controls, nor screen can use input in this update
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.GetCarriageOffset(System.Int32)">
+            <summary>
+            Converts carriage (or just char) position to normalized coordinates
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.GetCarriagePositionFromMouseCursor">
+            <summary>
+            After user clicks on textbox, we will try to set carriage position where the cursor is
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.GetModifiedText">
+            <summary>
+            If type of textbox is password, this method returns asterisk. Otherwise original text.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.RefreshSlidingWindow">
+            <summary>
+            If carriage is in current sliding window, then we don't change it. If it's over its left or right borders, we move sliding window.
+            Of course on on X axis, Y is ignored at all.
+            This method could be called from Update() or Draw() - it doesn't matter now
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiControlTextbox.SelectAll">
+            <summary>
+            GR: Use this to select all text outside for current textbox.
+            </summary>
+        </member>
+        <member name="P:Sandbox.Graphics.GUI.MyGuiControlTextbox.Text">
+            <summary>
+            When setting text to textbox, make sure you won't set it to unsuported charact
+            </summary>
+        </member>
+        <member name="T:Sandbox.Graphics.GUI.ScreenResult">
+            <summary>
+            Generic screen results
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.ScreenResult.Ok">
+            <summary>
+            Ok
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.ScreenResult.Cancel">
+            <summary>
+            Cancel
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyGuiScreenLogo.#ctor(System.String,System.Single,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Time in ms
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyIconTexts.GetPosition(VRageMath.Vector2,VRageMath.Vector2,VRage.Utils.MyGuiDrawAlignEnum)">
+            <summary>
+            Returns text's position from icon's position and size
+            </summary>
+            <param name="iconPosition">Icon's top-left position</param>
+            <param name="iconSize">Icon's size</param>
+            <param name="drawAlign">Text's draw align</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyIconTexts.Draw(VRageMath.Vector2,VRageMath.Vector2,System.Single,System.Single)">
+            <summary>
+            Draws non highlight texts into icon
+            </summary>
+            <param name="iconPosition">Icon's top-left position</param>
+            <param name="iconSize">Icon's size</param>
+            <param name="backgroundAlphaFade">Background's alpha fade</param>
+            <param name="colorMultiplicator">Color multiplicator</param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyIconTexts.Draw(VRageMath.Vector2,VRageMath.Vector2,System.Single,System.Boolean,System.Single)">
+            <summary>
+            Draws texts into icon
+            </summary>
+            <param name="iconPosition">Icon's top-left position</param>
+            <param name="iconSize">Icon's size</param>
+            <param name="backgroundAlphaFade">Background's alpha fade</param>
+            <param name="isHighlight">Defines if texts will be highlighted</param>
+            <param name="colorMultiplicator">Color multiplicator</param> 
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyToolTips.#ctor">
+            <summary>
+            Creates new instance with empty tooltips
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyToolTips.#ctor(System.String)">
+            <summary>
+            Creates new instance with one default tooltip
+            </summary>
+            <param name="toolTip">Tooltip's text</param>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyToolTips.RecalculateSize">
+            <summary>
+            Recalculates size of tooltips
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyRichLabel.Draw(VRageMath.Vector2,System.Single,VRageMath.Vector2)">
+            <summary>
+            Draws label
+            </summary>
+            <param name="position">Top-left position</param>
+            <param name="offset"></param>
+            <param name="drawSizeMax"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyRichLabelImage.Draw(VRageMath.Vector2)">
+            <summary>
+            Draws image
+            </summary>
+            <param name="position">Top-left position</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sandbox.Graphics.GUI.MyRichLabelLine.Draw(VRageMath.Vector2)">
+            <summary>
+            Draws line
+            </summary>
+            <param name="position">Top-left position</param>
+            <returns></returns>
+        </member>
+        <member name="F:Sandbox.Graphics.GUI.MyTreeViewItemDragAndDrop.m_frameBackDragging">
+            <summary>
+            Uggly hack, this control needs contain mouse just one more frame after actual drop
+            because otherwise for example editor will consume mouse events and do things like
+            unselecting added objects
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.#cctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Object"/> class.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.LoadData">
+            <summary>
+            Loads the data.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.ComputeFullscreenGuiCoordinate(VRage.Utils.MyGuiDrawAlignEnum,System.Int32,System.Int32)">
+            <summary>
+            Computes aligned coordinate for screens without size (Size == null) with optional pixel offset from given origin.
+            </summary>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.DrawString(System.String,System.Text.StringBuilder,VRageMath.Vector2,System.Single,System.Nullable{VRageMath.Color},VRage.Utils.MyGuiDrawAlignEnum,System.Boolean,System.Single)">
+            <summary>Draws string (string builder) at specified position</summary>
+            <param name="normalizedCoord">and Y are within interval [0,1]></param>
+            <param name="scale">Scale for original texture, it's not in pixel/texels,
+            but multiply of original size. E.g. 1 means unchanged size, 2 means double size.
+            Scale is uniform, preserves aspect ratio.</param>
+            <param name="useFullClientArea">True uses full client rectangle. False limits to GUI rectangle</param>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.DrawSprite(System.String,VRageMath.Rectangle,VRageMath.Color,System.Boolean)">
+            <summary>
+            Draw a sprite into rectangle specified in screen coordinates (pixels).
+            </summary>
+            <param name="texture">Sprite texture as path.</param>
+            <param name="rectangle">Rectangle in screen coordinates (pixels).</param>
+            <param name="color">Masking color.</param>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.DrawSpriteBatch(System.String,VRageMath.Vector2,VRageMath.Vector2,VRageMath.Color,VRage.Utils.MyGuiDrawAlignEnum,System.Boolean,System.Boolean)">
+            <summary>Draws sprite batch at specified position</summary>
+            <param name="normalizedCoord">X and Y are within interval [0,1]</param>
+            <param name="normalizedSize">size of destination rectangle (normalized).
+            Don't forget that it may be distorted by aspect ration, so rectangle size
+            [1,1] can make larger wide than height on your screen.</param>
+            <param name="useFullClientArea">True uses full client rectangle. False limits to GUI rectangle</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Sandbox.Graphics.MyGuiManager.DrawSpriteBatch(System.String,VRageMath.Vector2,VRageMath.Vector2,VRageMath.Color,VRage.Utils.MyGuiDrawAlignEnum,System.Single,System.Boolean)" -->
+        <member name="M:Sandbox.Graphics.MyGuiManager.GetScreenSizeFromNormalizedSize(VRageMath.Vector2,System.Boolean)">
+            <summary>Convertes normalized size [0,1] to screen size (pixels)</summary>
+            <param name="useFullClientArea">True uses full client rectangle. False limits to GUI rectangle</param>
+        </member>
+        <member name="M:Sandbox.Graphics.MyGuiManager.GetScreenCoordinateFromNormalizedCoordinate(VRageMath.Vector2,System.Boolean)">
+            <summary>Convertes normalized coodrinate [0,1] to screen coordinate (pixels)</summary>
+            <param name="useFullClientArea">True uses full client rectangle. False limits to GUI rectangle</param>
+        </member>
+        <member name="T:Sandbox.Graphics.MyTextureAtlas">
+            <summary>
+            There's so little to this class you barely need it but it
+            saves some typing if nothing else.
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.MyTextureAtlasItem.AtlasTexture">
+            <summary>
+            The Texture2D that this item is part of
+            </summary>
+        </member>
+        <member name="F:Sandbox.Graphics.MyTextureAtlasItem.UVOffsets">
+            <summary>
+            The UVOffsets describe where this item
+            sits in the AtlasTexture. The four components
+            are U offset, V offset, Width and Height
+            </summary>
+        </member>
+        <member name="M:System.Text.StringBuilderExtensions.Autowrap(System.Text.StringBuilder,System.Single,System.String,System.Single)">
+            <summary>
+            Inserts newlines into text to make it fit size.
+            </summary>
+        </member>
+    </members>
+</doc>
